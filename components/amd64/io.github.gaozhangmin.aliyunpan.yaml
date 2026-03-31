@@ -1,0 +1,68 @@
+Type: desktop-application
+ID: io.github.gaozhangmin.aliyunpan
+ProjectLicense: GPL-3.0-only
+Name:
+  C: 小白羊网盘
+Summary:
+  C: 多网盘统一管理客户端，支持阿里云盘、百度网盘、115网盘等
+Description:
+  C: >-
+    <p>
+          小白羊网盘是一款功能强大的跨平台网盘客户端，支持主流网盘服务与智能媒体库管理。
+        </p>
+    <ul>
+      <li>多网盘支持：阿里云盘、百度网盘、123网盘、115网盘等，支持 WebDAV 扩展</li>
+      <li>智能媒体库：自动刮削 TMDB 元数据，构建海报墙式媒体库</li>
+      <li>高清在线播放：支持外挂字幕、多音轨、播放列表及第三方播放器</li>
+      <li>高速下载：集成 Aria2 引擎，支持多线程与远程下载至 VPS/NAS</li>
+      <li>强大文件管理：文件夹树视图、批量操作、海量文件支持</li>
+      <li>跨平台：Windows、macOS、Linux 全平台兼容</li>
+    </ul>
+ProjectGroup: XiaoBaiYang
+Developer:
+  name:
+    C: gaozhangmin
+Url:
+  homepage: https://github.com/gaozhangmin/aliyunpan
+  bugtracker: https://github.com/gaozhangmin/aliyunpan/issues
+  help: https://github.com/gaozhangmin/aliyunpan#readme
+Launchable:
+  desktop-id:
+  - io.github.gaozhangmin.aliyunpan.desktop
+Recommends:
+- control: unknown
+- control: unknown
+Provides:
+  binaries:
+  - xby-driver
+Screenshots:
+- default: true
+  caption:
+    C: 文件管理界面
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/file-manager.png
+- caption:
+    C: 多账号管理
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/multi-account.png
+- caption:
+    C: 智能媒体库海报墙
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/media-library.png
+- caption:
+    C: 媒体详情页
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/media-detail.png
+Releases:
+- version: 4.0.1
+  type: development
+  unix-timestamp: 1774915200
+  description:
+    C: >-
+      <p>修复部分登录错误与播放问题，优化多云盘体验</p>
+ContentRating:
+  oars-1.1: {}
