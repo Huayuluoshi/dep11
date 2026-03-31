@@ -1,0 +1,62 @@
+Type: desktop-application
+ID: com.139.yun
+ProjectLicense: LicenseRef-Proprietary
+Name:
+  C: 中国移动云盘
+  en: CMCC Cloud
+Summary:
+  C: 安全、不限速的云存储服务
+  en: Secure and high-speed cloud storage service
+Description:
+  C: >-
+    <p>中国移动云盘是面向个人和家庭用户的云存储服务，为用户提供安全、不限速、移动用户免流的数字资产管理服务。</p>
+
+    <p>主要特性：</p>
+
+    <ul>
+      <li>不限速：上传下载免流量（移动用户），畅享极速传输</li>
+      <li>大空间：提供海量存储空间，文件照片安全备份</li>
+      <li>多端同步：支持手机、电脑、Web端实时同步</li>
+      <li>智能相册：AI智能分类，轻松管理照片回忆</li>
+    </ul>
+Categories:
+- Network
+- FileTransfer
+- Utility
+Keywords:
+  C:
+  - cloud
+  - sync
+  - '139'
+  - 网盘
+  - 移动云盘
+Url:
+  homepage: https://yun.139.com
+  help: https://yun.139.com/w/#/help
+Icon:
+  stock: com.139.yun
+Requires:
+- control: pointing
+- display_length: 800
+Screenshots:
+- default: true
+  caption:
+    C: 介绍页1
+  thumbnails: []
+  source-image:
+    url: https://img.mcloud.139.com/material_prod/material_media/20240416/1713258469628.jpg
+- caption:
+    C: 介绍页2
+  thumbnails: []
+  source-image:
+    url: https://img.mcloud.139.com/material_prod/material_media/20241225/1735114979124.jpg
+Releases:
+- version: 1.1.0
+  type: stable
+  unix-timestamp: 1773705600
+  description:
+    C: >-
+      <p>麒麟系统适配版本发布</p>
+ContentRating:
+  oars-1.1:
+    social-chat: intense
