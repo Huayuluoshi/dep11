@@ -39,12 +39,5 @@ Screenshots:
   thumbnails: []
   source-image:
     url: https://raw.githubusercontent.com/git-moss/ConvertWithMoss/main/screenshots/batch-convert.png
-Releases:
-- version: 16.5.1
-  type: stable
-  unix-timestamp: 1743379200
-  description:
-    C: >-
-      <p>Fixed: Processing: Sample reduction did not always work and improved logging.</p>
 ContentRating:
   oars-1.1: {}
