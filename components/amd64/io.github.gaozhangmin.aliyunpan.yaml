@@ -57,12 +57,5 @@ Screenshots:
   thumbnails: []
   source-image:
     url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/media-detail.png
-Releases:
-- version: 4.0.1
-  type: development
-  unix-timestamp: 1774915200
-  description:
-    C: >-
-      <p>修复部分登录错误与播放问题，优化多云盘体验</p>
 ContentRating:
   oars-1.1: {}
