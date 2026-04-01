@@ -1,5 +1,6 @@
 Type: desktop-application
 ID: io.github.gaozhangmin.aliyunpan
+Package: alixby
 ProjectLicense: GPL-3.0-only
 Name:
   C: 小白羊网盘
@@ -28,34 +29,34 @@ Url:
   help: https://github.com/gaozhangmin/aliyunpan#readme
 Launchable:
   desktop-id:
-  - io.github.gaozhangmin.aliyunpan.desktop
+  - alixby.desktop
 Recommends:
 - control: unknown
 - control: unknown
 Provides:
   binaries:
-  - xby-driver
+  - alixby
 Screenshots:
 - default: true
   caption:
     C: 文件管理界面
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/file-manager.png
+    url: https://github.com/gaozhangmin/staticResource/blob/master/images/icon.png
 - caption:
     C: 多账号管理
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/multi-account.png
+    url: https://github.com/gaozhangmin/aliyunpan/blob/main/images/multi-account.png
 - caption:
     C: 智能媒体库海报墙
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/media-library.png
+    url: https://github.com/gaozhangmin/aliyunpan/blob/main/images/media-library.png
 - caption:
     C: 媒体详情页
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/gaozhangmin/aliyunpan/main/screenshot/media-detail.png
+    url: https://github.com/gaozhangmin/aliyunpan/blob/main/images/movie-list.png
 ContentRating:
   oars-1.1: {}
