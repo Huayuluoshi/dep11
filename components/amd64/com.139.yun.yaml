@@ -35,7 +35,8 @@ Url:
   homepage: https://yun.139.com
   help: https://yun.139.com/w/#/help
 Launchable:
-  desktop-id: com.cmic.mcloud.desktop
+  desktop-id:
+  - com.cmic.mcloud.desktop
 Icon:
   stock: com.139.yun
 Requires:
