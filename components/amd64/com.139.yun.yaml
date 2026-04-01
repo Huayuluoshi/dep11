@@ -1,5 +1,6 @@
 Type: desktop-application
 ID: com.139.yun
+Package: com.cmic.mcloud
 ProjectLicense: LicenseRef-Proprietary
 Name:
   C: 中国移动云盘
@@ -33,6 +34,8 @@ Keywords:
 Url:
   homepage: https://yun.139.com
   help: https://yun.139.com/w/#/help
+Launchable:
+  desktop-id: com.cmic.mcloud.desktop
 Icon:
   stock: com.139.yun
 Requires:
