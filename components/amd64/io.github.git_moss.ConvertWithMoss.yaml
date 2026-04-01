@@ -1,43 +1,38 @@
 Type: desktop-application
 ID: io.github.git_moss.ConvertWithMoss
-ProjectLicense: GPL-3.0-or-later
+Package: convertwithmoss
+ProjectLicense: LGPLv3
 Name:
   C: ConvertWithMoss
 Summary:
   C: 一个简洁的文件格式转换工具
 Description:
   C: >-
-    <p>
-          ConvertWithMoss 是一个轻量级、易用的文件格式转换工具，
-          支持多种常见格式之间的相互转换，并提供批量处理功能。
-        </p>
-    <p>
-          主要特性：
-          - 支持图像、文档、音视频等格式转换
-          - 简洁的图形界面，拖放即可操作
-          - 批量处理，提高工作效率
-        </p>
+    <p>Converts multisamples in a specific source format to a different destination format. Furthermore, it can create multisample files from plain WAV files.</p>
 Developer:
   name:
     C: git-moss
 Url:
   homepage: https://github.com/git-moss/ConvertWithMoss
   bugtracker: https://github.com/git-moss/ConvertWithMoss/issues
-  help: https://github.com/git-moss/ConvertWithMoss/wiki
+  help: https://github.com/git-moss/ConvertWithMoss
+Launchable:
+  desktop-id:
+  - convertwithmoss-ConvertWithMoss.desktop
 Provides:
   binaries:
-  - convertwithmoss
+  - ConvertWithMoss
 Screenshots:
 - default: true
   caption:
     C: 主窗口界面
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/git-moss/ConvertWithMoss/main/screenshots/main-window.png
+    url: 
 - caption:
     C: 批量转换功能
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/git-moss/ConvertWithMoss/main/screenshots/batch-convert.png
+    url: 
 ContentRating:
   oars-1.1: {}
