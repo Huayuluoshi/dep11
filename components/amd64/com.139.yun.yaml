@@ -29,6 +29,7 @@ Keywords:
   - cloud
   - sync
   - '139'
+  zh:
   - 网盘
   - 移动云盘
 Url:
@@ -38,7 +39,7 @@ Launchable:
   desktop-id:
   - com.cmic.mcloud.desktop
 Icon:
-  stock: com.139.yun
+  com.139.yun
 Requires:
 - control: pointing
 - display_length: 800
