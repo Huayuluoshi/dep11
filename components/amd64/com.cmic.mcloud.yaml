@@ -1,3 +1,4 @@
+---
 Type: desktop-application
 ID: com.cmic.mcloud
 Package: com.cmic.mcloud
@@ -9,6 +10,7 @@ Summary:
   C: Secure and high-speed cloud storage service
   zh: 安全、不限速的云存储服务
 Description:
+  C: Secure and high-speed cloud storage service
   zh: >-
     <p>中国移动云盘是面向个人和家庭用户的云存储服务，为用户提供安全、不限速、移动用户免流的数字资产管理服务。</p>
 
@@ -37,9 +39,7 @@ Url:
   help: https://yun.139.com/w/#/help
 Launchable:
   desktop-id:
-  - com.cmic.mcloud.desktop
-Icon:
-  com.139.yun
+    - com.cmic.mcloud.desktop
 Requires:
 - control: pointing
 - display_length: 800
