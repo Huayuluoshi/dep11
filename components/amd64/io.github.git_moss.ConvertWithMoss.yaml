@@ -1,0 +1,37 @@
+---
+Type: desktop-application
+ID: io.github.git_moss.ConvertWithMoss
+Package: convertwithmoss
+ProjectLicense: LGPLv3
+Name:
+  C: ConvertWithMoss
+  zh: ConvertWithMoss
+Summary:
+  C: A simple file format conversion tool
+  zh: 一个简洁的文件格式转换工具
+Description:
+  C: >-
+    <p>Converts multisamples in a specific source format to a different
+    destination format. Furthermore, it can create multisample files from plain
+    WAV files.</p>
+Developer:
+  name:
+    C: Jürgen Moßgraber
+Url:
+  homepage: https://github.com/git-moss/ConvertWithMoss
+  bugtracker: https://github.com/git-moss/ConvertWithMoss/issues
+  help: https://github.com/git-moss/ConvertWithMoss
+Categories:
+  - Utility
+Launchable:
+  desktop-id:
+    - convertwithmoss-ConvertWithMoss.desktop
+Screenshots:
+  - default: true
+    caption:
+      C: 主窗口界面
+    thumbnails: []
+    source-image:
+      url: https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss.png
+ContentRating:
+  oars-1.1: {}
