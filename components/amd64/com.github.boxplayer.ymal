@@ -1,10 +1,7 @@
----
-File: DEP-11
-Version: '1.0'
----
 Type: desktop-application
-ID: com.github.gaozhangmin.boxplayer
-ProjectLicense: MIT
+ID: com.github.boxplayer
+ProjectLicense: GPLv3
+Package: boxplayer
 Name:
   C: BoxPlayer
   zh_CN: 小白羊播放器
@@ -29,7 +26,7 @@ Description:
         </p>
 ProjectGroup: BoxPlayer
 Developer:
-  id: com.github.gaozhangmin
+  id: com.github.boxplayer
   name:
     C: gaozhangmin
 Categories:
@@ -61,5 +58,4 @@ Screenshots:
 ContentRating:
   oars-1.1:
     social-info: mild
-Custom:
-  x-appstream-package: boxplayer
+
